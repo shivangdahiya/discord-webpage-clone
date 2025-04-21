@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    /* border: 1px solid black; */
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-image: linear-gradient(to bottom right, rgb(3, 3, 37), rgb(123, 123, 240));
+
+    
+   
+}
+.container{
+    
+    width: 100%;
+    position: relative;
+
+
+}
+.nav-bar{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:center;
+    padding-top: 2.6rem;
+    
+
+}
+.left-nav{
+    /* border: 1px solid black; */
+    display: flex;
+    top: 3.2rem;
+    left: 1.6rem;
+    position: fixed;
+    
+}
+.left-nav a{
+    display: flex;
+    gap: 0.5rem;
+   
+}
+.right-nav{
+    /* border: 1px solid black; */
+    width: 5rem;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    position: fixed;
+    right: 1.6rem;
+    top: 2.7rem;
+    
+}
+.right-nav:hover{
+    background-image: linear-gradient(to top, rgb(218, 213, 213),rgb(218, 213, 213));
+}
+.right-nav p{
+    padding: 0.8rem;
+    color: black;
+  
+
+}
+.left-nav h1{
+
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.discord-image{
+    width: 3rem;
+   
+}
+
+.middle-nav{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    
+}
+
+.navitems h3{
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1rem;
+}
+
+ a{
+    text-decoration: none;
+    
+}
+a{
+    color: none;
+}
+.navitems:hover{
+    background-color: skyblue;
+    border-radius: 1rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+.top-main{
+    display: flex;
+    width: 55%;
+}
+.top-left{
+    /* margin: auto 0; */
+}
+.heading{
+    margin: 0.5rem 0.5rem;
+    
+}
+#head{
+    font-weight: 800;
+    font-size: 2.8rem;
+}
+.para{
+    margin: 1rem 0.5rem;
+}
+.para p{
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    color: white;
+}
+.bg-image{
+    width: 25rem;
+    border-radius: 10px;
+}
+.bottom-main{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-around;
+    width: 55%;
+    /* border:1px solid black ; */
+}
+.bottom-left{
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    word-spacing: 0.5rem;
+    
+    background-color: white;
+    opacity: 0.75;
+    border-radius: 10px;
+}
+.bottom-right{
+    padding:1rem 1.5rem ;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: rgb(54, 54, 216);
+    word-spacing: 0.3rem;
+    
+}
+.bottom-right a{
+    color: white;
+    
+}
+.bottom-left a{
+    color: black;
+}
+.bottom-right:hover{
+    background-image: linear-gradient(to top, rgb(70, 70, 236),rgb(150, 150, 240));
+}
+.bottom-left:hover{
+    background-image: linear-gradient(to top,rgb(218, 214, 214),rgb(218, 214, 214));
+}
