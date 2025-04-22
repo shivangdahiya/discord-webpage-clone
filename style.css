@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(71, 71, 181);
+}
 #wrapper{
     /* border: 1px solid black; */
     width: 100vw;
