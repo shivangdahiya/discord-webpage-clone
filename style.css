@@ -16,11 +16,35 @@ body{
     
    
 }
-
+/* .moon-image{
+    position: absolute;
+    opacity: 0.25;
+    
+    
+} */
+#moon-image{
+    position: absolute;
+    width: 150px;
+    opacity: 0.25;
+    top: 8rem;
+    left: 15rem;
+    animation:  moon-image infinite;
+    animation-duration: 20s;
+   
+    
+}
+@keyframes moon-image {
+    0%{
+        transform: rotateZ(90deg);
+    }
+    
+    
+}
 .container{
     
     width: 100%;
     position: relative;
+    
 
 
 }
