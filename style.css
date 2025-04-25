@@ -265,13 +265,23 @@ a{
     overflow: hidden;
 }
 
-#right-order{
+#right-order-1{
     order: 1;
     margin-left:2.5rem ;
 }
-#left-order{
+#left-order-1{
     order:2;
 }
 #gradient-box2{
     background-image: linear-gradient(to bottom right ,rgb(3, 3, 37), rgb(99, 99, 200) );
+}
+#gradient-box3{
+    background-image: linear-gradient(to top left ,rgb(3, 3, 37), rgb(99, 99, 200) );
+}
+#right-order-2{
+    order: 2;
+    margin-left:2.5rem ;
+}
+#left-order-2{
+    order:1;
 }
