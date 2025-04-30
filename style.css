@@ -251,6 +251,7 @@ a{
     object-fit: cover;
    
     z-index: 10;
+    
 
 }
 .right-box{
@@ -340,5 +341,7 @@ a{
     
 }
 
-
+#box-5{
+    background-image: linear-gradient(to right,rgb(112, 112, 244),rgb(71, 22, 71));
+}
 
