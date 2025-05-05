@@ -8,9 +8,9 @@ body{
 }
 #wrapper{
     /* border: 1px solid black; */
-    width: 100vw;
+    /* width: 9; */
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y:auto;
     background-image: linear-gradient(to bottom right, rgb(3, 3, 37), rgb(123, 123, 240));
 
     
@@ -42,7 +42,7 @@ body{
 }
 .container{
     
-    width: 100%;
+    width: 98%;
     position: relative;
     
 
@@ -73,7 +73,7 @@ body{
     /* border: 1px solid black; */
     width: 5rem;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: white;
     position: fixed;
     right: 1.6rem;
@@ -252,6 +252,7 @@ a{
    
     z-index: 10;
     
+    
 
 }
 .right-box{
@@ -330,7 +331,7 @@ a{
     margin-left: 5rem;
     transform: translateX(-40%);
     animation-name: bar-slide;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     
 }
@@ -338,6 +339,21 @@ a{
     0%{
         transform: translateX(-10%);
     }
+    /* 20%{
+        transform: translateX(-10%);
+    } */
+    /* 50%{
+        transform: translateX(-15%);
+    }
+    70%{
+        transform: translateX(-18%);
+    } */
+    /* 100%{
+        transform: translateX(-22%);
+    } */
+    
+    
+    
     
 }
 
@@ -364,5 +380,100 @@ a{
     
     /* border: 1px solid black; */
 
+}
+.cartoon-box{
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to top, rgb(65, 65, 227),rgb(116, 116, 193));
+    
+}
+.cartoon-container{
+    /* border: 5px solid green; */
+    position: relative;
+   
+    display: flex;
+    /* height: 400px; */
+    width: 100%;
+    height: 35rem;
+    margin: auto 0px;
+    flex-direction: column;
+
+}
+#leave ,
+#computer, #ai, #ai-bottom ,#big-image{
+    position: absolute;
+    /* border: 1px solid black; */
+    
+    
+}
+#big-image{
+   
+    width: 75%;
+    
+    left: 12%;
+    /* bottom: -6.5%; */
+   
+} 
+#leave{
+    bottom: 52%;
+    left: 43%;
+    animation-name: leave;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+
+}
+@keyframes leave {
+    0%{
+        transform: rotateZ(2deg);
+
+    }
+    20%{
+        transform: rotateZ(-2deg);
+    }
+    40%{
+        transform: rotateZ(5deg);
+    }
+    60%{
+        transform: rotateZ(-5deg);
+    }
+    80%{
+        transform: rotateX(5deg);
+    }
+    
+    100%{
+        transform: rotateZ(5deg);
+    }
+    
+}
+
+#computer{
+    width: 25%;
+    bottom:-0.8%;
+    left: 38%;
+
+
+    
+    
+}
+#ai{
+    width: 9%;
+    transform: rotateY(-180deg);
+    bottom: 22.5%;
+    left: 20%;
+    
+}
+#ai-bottom{
+    width: 8.5%;
+    bottom: 12%;
+    left: 20%;
+   
+}
+.contant-box{
+    /* border: 1px solid black; */
+    background-color: rgb(23, 55, 134);
+    height: 500px;
+    margin-top: -4.1rem;
 }
 
